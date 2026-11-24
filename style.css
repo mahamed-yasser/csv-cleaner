@@ -23,3 +23,4 @@ button.x{min-height:36px;border:1.5px solid #fecaca;background:#fff;color:var(--
 @media(max-width:860px){.grid2{grid-template-columns:1fr}}
 @media print{body{background:#fff}.noprint,header.top,footer{display:none}.panel{border:0}}
 /*nowrap-fix*/button.x{white-space:nowrap}table{table-layout:auto}@media(max-width:480px){td,th{padding-left:.2rem;padding-right:.2rem;font-size:.82rem}}
+/*mobile-table-fix*/td{word-break:normal;white-space:nowrap}th{white-space:nowrap}.row{grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
